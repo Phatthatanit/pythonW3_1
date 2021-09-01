@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30406.217
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "pythonW3_1", "pythonW3_1\pythonW3_1.pyproj", "{80757490-B884-45F2-8B6F-7F38D7D8F0C4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lab3", "lab3", "{BA99BD80-F18C-4CF0-A8F3-428D5A44D5C8}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "3.1", "3.1\3.1.pyproj", "{7EEAB036-5465-48EB-A1D5-1B156D67ACAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,9 +17,14 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{80757490-B884-45F2-8B6F-7F38D7D8F0C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{80757490-B884-45F2-8B6F-7F38D7D8F0C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EEAB036-5465-48EB-A1D5-1B156D67ACAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EEAB036-5465-48EB-A1D5-1B156D67ACAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7EEAB036-5465-48EB-A1D5-1B156D67ACAC} = {BA99BD80-F18C-4CF0-A8F3-428D5A44D5C8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5EF45D88-F316-438D-80A8-3A0C9CC436D2}
